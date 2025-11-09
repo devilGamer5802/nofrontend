@@ -31,7 +31,7 @@ const Page =  () => {
           disabled={createProject.isPending} 
           onClick={() => createProject.mutate({value:value})}
         >
-          Summit
+          Submit
         </Button>
       </div>
     </div>
